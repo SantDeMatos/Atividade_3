@@ -1,0 +1,315 @@
+/* Adicionar aqui toda a estilização criada para sua aplicação. */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    font-family: "Barlow", Courier, monospace;
+
+}
+body {
+  background: black;
+  margin: 0;
+}
+
+.header {
+  border-bottom: solid aqua 2px;
+  color: white;
+}
+
+.header .container .titulo {
+  color: aqua;
+}
+
+.container .navbar {
+  color: yellow;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+
+}
+
+.navbar li a{
+  color: yellow;
+  text-decoration: none;
+  border-bottom: 2px solid yellow;
+  
+  
+}
+
+.navbar .agora{
+
+    font-weight: 900;
+
+}
+
+.container{
+
+    display: flex;
+    margin: auto;
+    width: 80%;
+}
+
+.header .container{
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner{
+
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    height: 500px;
+    color: white;
+
+}
+
+.banner .container{
+
+    width: 500px;
+    height: 100%;
+    align-items: center;
+}
+
+.banner .container p{
+
+    font-size: 54px;
+
+}
+
+.banner .container p span{
+
+    font-weight: 800;
+
+}
+
+.social{
+    background-color: white;
+}
+
+.box img{
+
+width: 100px;
+
+
+}
+
+.boxes{
+
+    display: flex;
+    padding: 20px 0px;   
+    width: 100%;
+    justify-content: space-evenly; 
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.box p{
+
+    text-align: center;
+
+}
+
+.box h4{
+
+    color: crimson;
+    font-weight: 900;
+
+}
+
+.login{
+
+   display: flex; 
+   width: 100%;
+   height: 600px;
+   align-items: center;
+   justify-items: center;
+   background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png); 
+}
+
+.login .container{
+
+    display: flex;
+    background-color: lightgray;
+    border-radius: 10px; 
+    width: 50%;
+    height: 270px;
+   
+
+}
+
+.card_card-login{
+
+    border-radius: 10px;
+    height: 210px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.card_card-login h2{
+
+    display: flex;
+    font-size: 30px;
+    color: rgb(255, 0, 170);
+    justify-self: flex-start;
+    align-self: center;
+
+}
+
+.formulario{
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.formulario .campo input{
+
+    display: flex;
+    flex-direction: column;
+    width:450px ;
+    border-radius: 10px;
+    border: solid 1px cyan;
+    height: 35px;
+
+}
+
+.botao{
+
+    display: flex;
+    margin-top: 10px;
+    background-color:  rgb(255, 0, 170); ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-size: 22px;
+    text-align: center;
+     font-family: "Barlow", Courier, monospace;
+     justify-content: center;
+    
+
+
+}
+.campo span{
+
+    color: rgb(255, 0, 170);
+
+
+}
+
+
+.footer{
+
+    background: darkcyan;
+    display: flex;
+    
+}
+
+
+.footer .container{
+
+    justify-content: center;
+    color: white;
+    height: 100px;
+    align-items: center;
+
+}
+
+.simulador{
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.simulador .container{
+
+    display: flex;
+    height: 500px;
+    width: 100%;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.cad{
+
+    display: flex; 
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-items: center;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png); 
+
+
+}
+.cad .container {
+
+    display: flex;
+    background-color: lightgray;
+    border-radius: 10px; 
+    width: 45%;
+    height: 500px;
+    justify-content: space-around;
+
+
+}
+
+.cad .container .formulario .campo input{
+
+    display: flex;
+    flex-direction: column;
+    width:500px ;
+    border-radius: 10px;
+    border: solid 1px cyan;
+    height: 35px;
+
+}
+
+.card-cadastro h2{
+
+    display: flex;
+    font-size: 30px;
+    color: rgb(255, 0, 170);
+    justify-self: center;
+    align-self: center;
+
+}
+
+ .card-cadastro .campo span{
+
+    color: rgb(255, 0, 170);
+    font-size: 20px;
+
+}
+
+.formulario .campo{
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+
+}
